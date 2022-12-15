@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="UK">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wed Studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+          integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <!-- Шапка сайту -->
+    <header>
+<div class="header-section container">
+  <nav class="nav-menu">
+  <a href="./index.html" class="logo-header"><span>Web</span>Studio</a>
+  <ul class="nav-list">
+    <li><a href="./index.html" class="studio current">Студія</a></li>
+    <li><a href="./portfolio.html" class="portfolio">Портфоліо</a></li>
+    <li><a href="/" class="contacts">Контакти</a></li>
+  </ul>
+</nav>
+<ul class="header-address">
+  <li><a href="mailto:info@devstudio.com" class="mail"><div class="icon-mail"><svg><use href="./imges/sprite.svg#envelope"></use></svg></div>info@devstudio.com</a></li>
+  <li><a href="telto:+380961111111" class="tel"><div class="icon-tel"><svg>
+      <use href="./imges/sprite.svg#smartphone"></use>
+    </svg></div>+38 096 111 11 11</a></li>
+</ul>
+</div>
+    </header>
+    <main>
+      <!-- Герой -->
+      <section class="hero">
+        <h1 class="hero-heading">Ефективні рішення для вашого бізнесу</h1>
+        <button type="button" class="hero-btn" data-modal-open>Замовити послугу</button>
+      </section>
+      <!-- Особливості -->
+      <section class="features container">
+        <ul class="features-list">
+          <li class="attantion icons-features">
+            <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
+            <p>
+              Ідейні міркування, і навіть початок повсякденної роботи з
+              формування позиції.
+            </p>
+          </li>
+          <li class="punctuality icons-features">
+            <h3>ПУНКТУАЛЬНІСТЬ</h3>
+            <p>
+              Завдання організації, особливо рамки і місце навчання кадрів тягне
+              у себе.
+            </p>
+          </li>
+          <li class="planning icons-features">
+            <h3>ПЛАНУВАННЯ</h3>
+            <p>
+              Так само консультація з широким активом значною мірою зумовлює.
+            </p>
+          </li>
+          <li class="technologies icons-features">
+            <h3>СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+            <p>
+              Значимість цих проблем настільки очевидна, що реалізація планових
+              завдань.
+            </p>
+          </li>
+        </ul>
+      </section>
+      <!-- Чим ми займаємося -->
+      <section class="working container">
+        <h2>Чим ми займаємося</h2>
+        <ul class="working-list">
+          <li class="working-thumb">
+              <img src="./imges/working_prosses1.jpg" 
+              width="370" 
+              alt="Зображення з роботаю на клавіатурі" />
+              <p class="working-description">Десктопні додатки</p>
+          </li>
+          <li class="working-thumb">
+            <img
+              src="./imges/working_prosses2.jpg"
+              width="370"
+              alt="Зображення з телефоном"
+            />
+            <p class="working-description">Мобільні додатки</p>
+          </li>
+          <li class="working-thumb">
+            <img
+              src="./imges/working_prosses3.jpg"
+              width="370"
+              alt="Злюраження з планшетом"
+            />
+            <p class="working-description">Дизайнерські рішення</p>
+          </li>
+        </ul>
+      </section>
+      <!-- Наша команда -->
+      <section class="team">
+        <h2>Наша команда</h2>
+        <ul class="team-list container">
+          <li>
+           <div class="team-thumb">
+              <img src="./imges/igor_demyanenko.jpg" height="260" alt="Фото Ігор Дем'яненко" />
+           </div>
+            <h3>Ігор Дем'яненко</h3>
+            <p>Product Designer</p>
+            <ul class="massengers">
+              <li>
+                <a href="/" class="massenger-link" aria-label="Інстаграм">
+                 <svg class="icon-instagram">
+                   <use xlink:href="./imges/sprite.svg#instagram" width="20" height="20"></use>
+                 </svg>
+                </a>
+              </li>
+              <li>
+                <a href="/" class="massenger-link" aria-label="Твітер">
+                 <svg class="icon-twitter">
+                   <use xlink:href="./imges/sprite.svg#twitter" width="20" height="20"></use>
+                 </svg>
+                </a>
+              </li>
+              <li>
+                 <a href="/" class="massenger-link" aria-label="Фейсбук">
+                 <svg class="icon-facebook">
+                    <use href="./imges/sprite.svg#facebook" width="20" height="20"></use>
+                 </svg>
+                 </a>
+              </li>
+              <li>
+                <a href="/" class="massenger-link" aria-label="Лінкедін">
+                  <svg class="icon-linkedin">
+                    <use xlink:href="./imges/sprite.svg#linkedin" width="20" height="20"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <div class="team-thumb">
+            <img
+              src="./imges/olha_repina.jpg"
+              width="270"
+              alt="Фото Ольга Рєпіна"
+            />
+            </div>
+            <h3>Ольга Рєпіна</h3>
+            <p>Frontend Developer</p>
+            <ul class="massengers">
+              <li>
+                <a href="/" class="massenger-link" aria-label="Інстаграм">
+                  <svg class="icon-instagram">
+                    <use xlink:href="./imges/sprite.svg#instagram" width="20" height="20"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="/" class="massenger-link" aria-label="Твітер">
+                  <svg class="icon-twitter">
+                    <use xlink:href="./imges/sprite.svg#twitter" width="20" height="20"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="/" class="massenger-link" aria-label="Фейсбук">
+                  <svg class="icon-facebook">
+                    <use href="./imges/sprite.svg#facebook" width="20" height="20"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="/" class="massenger-link" aria-label="Лінкедін">
+                  <svg class="icon-linkedin">
+                    <use xlink:href="./imges/sprite.svg#linkedin" width="20" height="20"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <div class="team-thumb">
+            <img
+              src="./imges/mykola_tarasov.jpg"
+              width="270"
+              alt="Фото Микола Тарасов"
+            />
+            </div>
+            <h3>Микола Тарасовv</h3>
+            <p>Marketing</p>
+            <ul class="massengers">
+              <li>
+                <a href="/" class="massenger-link" aria-label="Інстаграм">
+                  <svg class="icon-instagram">
+                    <use xlink:href="./imges/sprite.svg#instagram" width="20" height="20"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="/" class="massenger-link" aria-label="Твітер">
+                  <svg class="icon-twitter">
+                    <use xlink:href="./imges/sprite.svg#twitter" width="20" height="20"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="/" class="massenger-link" aria-label="Фейсбук">
+                  <svg class="icon-facebook">
+                    <use href="./imges/sprite.svg#facebook" width="20" height="20"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="/" class="massenger-link" aria-label="Лінкедін">
+                  <svg class="icon-linkedin">
+                    <use xlink:href="./imges/sprite.svg#linkedin" width="20" height="20"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <div class="team-thumb">
+            <img
+              src="./imges/mykhaylo_yermakov.jpg"
+              width="270"
+              alt="Фото Михайло Єрмаков"
+            />
+            </div>
+            <h3>Михайло Єрмаков</h3>
+            <p>UI Designer</p>
+            <ul class="massengers">
+              <li>
+                <a href="/" class="massenger-link" aria-label="Інстаграм">
+                  <svg class="icon-instagram">
+                    <use xlink:href="./imges/sprite.svg#instagram" width="20" height="20"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="/" class="massenger-link" aria-label="Твітер">
+                  <svg class="icon-twitter">
+                    <use xlink:href="./imges/sprite.svg#twitter" width="20" height="20"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="/" class="massenger-link" aria-label="Фейсбук">
+                  <svg class="icon-facebook">
+                    <use href="./imges/sprite.svg#facebook" width="20" height="20"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="/" class="massenger-link" aria-label="Лінкедін">
+                  <svg class="icon-linkedin">
+                    <use xlink:href="./imges/sprite.svg#linkedin" width="20" height="20"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+
+      <!-- Постійні клієнти -->
+
+<section class="clients container">
+  <h2>Постійні клієнти</h2>
+  <ul class="clients-list">
+    <li><a href="/"><svg><use href="./imges/sprite.svg#Logo1" ></use></svg></a></li>
+    <li><a href="/"><svg><use href="./imges/sprite.svg#Logo2"></use></svg></a></li>
+    <li><a href="/"><svg><use href="./imges/sprite.svg#Logo3"></use></svg></a></li>
+    <li><a href="/"><svg><use href="./imges/sprite.svg#Logo4"></use></svg></a></li>
+    <li><a href="/"><svg><use href="./imges/sprite.svg#Logo5"></use></svg></a></li>
+    <li><a href="/"><svg><use href="./imges/sprite.svg#Logo6"></use></svg></a></li>
+  </ul>
+</section>
+
+    </main>
+
+    <!-- Підвал -->
+    <footer>
+      <div class="footer-section container">
+      <div>
+      <a href="/" class="logo-footer"><span>Web</span>Studio</a>
+      <address class="footer-address">
+        <ul class="footer-address-list">
+          <li>
+            <a
+              href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              >м. Київ, пр-т Лесі Украінки, 26</a>
+          </li>
+          <li>
+            <a href="mailto:info@devstudio.com" class="mail"
+              >info@devstudio.com</a>
+          </li>
+          <li>
+            <a href="telto:+380961111111" class="tel">+38 096 111 11 11</a>
+          </li>
+        </ul>
+      </address>
+      </div>
+      <div class="invitation">
+        <h3>Приєднуйтесь</h3>
+        <ul class="massengers">
+          <li>
+            <a href="/" class="massenger-link" aria-label="Інстаграм">
+              <svg class="icon-instagram">
+                <use xlink:href="./imges/sprite.svg#instagram" width="20" height="20"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="/" class="massenger-link" aria-label="Твітер">
+              <svg class="icon-twitter">
+                <use xlink:href="./imges/sprite.svg#twitter" width="20" height="20"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="/" class="massenger-link" aria-label="Фейсбук">
+              <svg class="icon-facebook">
+                <use href="./imges/sprite.svg#facebook" width="20" height="20"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="/" class="massenger-link" aria-label="Лінкедін">
+              <svg class="icon-linkedin">
+                <use xlink:href="./imges/sprite.svg#linkedin" width="20" height="20"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+        </div>
+      </div>
+    </footer>
+<div class="backdrop is-hidden" data-modal>
+  <div class="modal-order">
+    <button class="btn-order-close" data-modal-close><svg class="icon-close"><use href="./imges/sprite.svg#Vector"></use></svg></button>
+  </div>
+</div>
+<script>(() => {
+    const refs = {
+      openModalBtn: document.querySelector("[data-modal-open]"),
+      closeModalBtn: document.querySelector("[data-modal-close]"),
+      modal: document.querySelector("[data-modal]"),
+    };
+
+    refs.openModalBtn.addEventListener("click", toggleModal);
+    refs.closeModalBtn.addEventListener("click", toggleModal);
+
+    function toggleModal() {
+      refs.modal.classList.toggle("is-hidden");
+    }
+  })();</script>
+  </body>
+</html>
