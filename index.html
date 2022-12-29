@@ -191,7 +191,7 @@
               alt="Фото Микола Тарасов"
             />
             </div>
-            <h3>Микола Тарасовv</h3>
+            <h3>Микола Тарасов</h3>
             <p>Marketing</p>
             <ul class="massengers">
               <li>
@@ -340,15 +340,81 @@
             </a>
           </li>
         </ul>
-        </div>
+
+      </div>
+      <div class="sighn-up">
+                
+          <h3 class="sighn-up-hearder">Підпишіться на розсилку</h3>
+              <div class="sighn-up-form">
+                  <lable><input type="email" name="email" id="email-sighn-up" placeholder="E-mail"></lable>
+                  <button type="submit" class="btn-sighn-up">Підписатися
+                    <svg class="icon-btn-sighn-up">
+                      <use href="./imges/sprite.svg#paper-plane"></use>
+                    </svg>
+                  </button>
+              </div>
+
       </div>
     </footer>
+    
 <div class="backdrop is-hidden" data-modal>
   <div class="modal-order">
-    <button class="btn-order-close" data-modal-close><svg class="icon-close"><use href="./imges/sprite.svg#Vector"></use></svg></button>
+    <button class="btn-order-close" data-modal-close>
+      <svg class="icon-close"><use href="./imges/sprite.svg#Vector"></use></svg>
+    </button>
+
+  <form class="order-form">
+    <h2>Залиште свої дані, ми вам передзвонимо</h2>
+
+<ul class="applicater-data">
+  <li class="form-field">
+    <label for="applicater-name">Ім'я</label>
+    <div class="input-border">
+    <svg class="icon-modal">
+      <use href="./imges/sprite.svg#human"></use>
+    </svg>
+    <input type="text" name="name" id="applicater-name">
+    </div>
+  </li>
+  <li class="form-field">
+    <label for="applicater-tel">Телефон</label>
+    <div class="input-border">
+  <svg class="icon-modal">
+    <use href="./imges/sprite.svg#phone"></use>
+  </svg>
+  <input type="tel" name="tel" id="applicater-tel">
+    </div>
+  </li>
+  <li class="form-field">
+    <label for="applicater-email">Пошта</label>
+    <div class="input-border">
+    <svg class="icon-modal">
+      <use href="./imges/sprite.svg#envelope-black"></use>
+    </svg>
+    <input type="email" name="email" id="applicater-email">
+    </div>
+  </li>
+  <li class="form-field">
+    <label for="applicater-coment">Коментар</label>
+    <textarea class="applicater-coment" type="textarea" rows='8' name="coment" id="applicater-coment" placeholder="Введіть текст">
+  </li>
+</ul>
+
+
+      <label class="policy"> 
+        <input type="checkbox" name="policy" class="input-policy" />
+        <span class="policy-check"></span>
+          Погоджуюся з розсилкою та приймаю <a href="/">Умови договору</a>
+      </label>
+
+    <button type="submit" class="btn-submit">Відправити</button>
+
+  </form>
   </div>
 </div>
-<script>(() => {
+
+<script>
+  (() => {
     const refs = {
       openModalBtn: document.querySelector("[data-modal-open]"),
       closeModalBtn: document.querySelector("[data-modal-close]"),
@@ -361,6 +427,8 @@
     function toggleModal() {
       refs.modal.classList.toggle("is-hidden");
     }
-  })();</script>
+  })();
+  </script>
+
   </body>
 </html>
